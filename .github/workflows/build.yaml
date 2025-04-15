@@ -39,4 +39,4 @@ jobs:
           sudo docker stop mywebapp || true
           sudo docker rm mywebapp || true
           sudo docker pull fahrezabahran/mywebapplication:latest
-          sudo docker run -d --name mywebapp -p 80:8080 fahrezabahran/mywebapplication:latest
+          sudo docker run -d --name mywebapp -p 5000:5000 fahrezabahran/mywebapplication:latest
