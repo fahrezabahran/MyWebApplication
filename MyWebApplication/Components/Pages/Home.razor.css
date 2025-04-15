@@ -1,0 +1,64 @@
+﻿.timeline {
+    position: relative;
+    border-left: 3px solid #512bd4;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -40px; /* Atur posisi titik agar menimpa garis */
+    top: 0;
+    width: 18px; /* Ukuran titik */
+    height: 18px; /* Ukuran titik */
+    background-color: #512bd4;
+    border-radius: 50%;
+    border: 3px solid white; /* Border putih di sekitar titik */
+}
+
+.timeline-content {
+    margin-left: 20px;
+}
+
+.timeline-title {
+    font-weight: bold;
+}
+
+.timeline-date {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+/* Styling untuk Card dan Content */
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.social-links .btn {
+    font-size: 16px;
+}
+
+.social-links i {
+    margin-right: 8px;
+}
