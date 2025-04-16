@@ -62,3 +62,7 @@
 .social-links i {
     margin-right: 8px;
 }
+
+.anchor-target {
+    scroll-margin-top: 70px;
+}
